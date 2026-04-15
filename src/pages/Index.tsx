@@ -58,7 +58,7 @@ export default function Home() {
     <div className="pb-20 md:pb-0">
       {/* Hero */}
       <section className="relative overflow-hidden">
-        <img src={heroVan} alt="NEPA Gameday Shuttle 15-passenger van" width={1920} height={1080} className="absolute inset-0 w-full h-full object-cover opacity-20" />
+        <img src={heroVan} alt="NEPA Gameday Shuttle 12-passenger van" width={1920} height={1080} className="absolute inset-0 w-full h-full object-cover opacity-20" />
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background" />
         <div className="container relative py-20 md:py-32 text-center">
           <h1 className="text-4xl md:text-6xl font-black leading-tight max-w-4xl mx-auto">

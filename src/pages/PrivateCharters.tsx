@@ -47,7 +47,7 @@ export default function PrivateCharters() {
       <section className="container py-12">
         <h1 className="text-3xl md:text-4xl font-bold mb-2">Private Charters</h1>
         <p className="text-muted-foreground max-w-xl">
-          Book our 15-passenger sprinter van for your group. Your schedule, your destination.
+          Book our 12-passenger van for your group. Your schedule, your destination.
         </p>
       </section>
 
