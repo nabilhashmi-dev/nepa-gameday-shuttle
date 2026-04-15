@@ -1,5 +1,6 @@
 import { useState } from "react";
 import TripCard from "@/components/TripCard";
+import TripCalendar from "@/components/TripCalendar";
 import trips from "@/data/trips.json";
 import { Trip } from "@/types/trip";
 
@@ -18,12 +19,17 @@ const filters = [
 export default function UpcomingTrips() {
   const [filter, setFilter] = useState("all");
   const filtered = filter === "all" ? visibleTrips : visibleTrips.filter((t) => t.category === filter);
+  const calendarTrips = filter === "all" ? visibleTrips : filtered;
 
   return (
     <div className="container py-12 pb-24 md:pb-12">
       <h1 className="text-3xl md:text-4xl font-bold mb-2">Upcoming Trips</h1>
       <p className="text-muted-foreground mb-8">Reserve your seats for per-seat gameday shuttles from NEPA.</p>
 
+      {/* Calendar */}
+      <TripCalendar trips={calendarTrips} />
+
+      {/* Filter tabs */}
       <div className="flex flex-wrap gap-2 mb-8">
         {filters.map((f) => (
           <button

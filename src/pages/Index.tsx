@@ -3,8 +3,11 @@ import { Button } from "@/components/ui/button";
 import TripCard from "@/components/TripCard";
 import trips from "@/data/trips.json";
 import { Trip } from "@/types/trip";
-import { Bus, Clock, MapPin, CreditCard, Star, ArrowRight } from "lucide-react";
-import { heroVan, vanInterior } from "@/lib/tripImages";
+import { MapPin, CreditCard, Star, ArrowRight, Bus } from "lucide-react";
+import { heroVan } from "@/lib/tripImages";
+import worldcupImg from "@/assets/trip-worldcup.jpg";
+import psuImg from "@/assets/trip-psu-football.jpg";
+import eaglesImg from "@/assets/trip-eagles.jpg";
 
 const typedTrips = trips as Trip[];
 
@@ -16,29 +19,32 @@ const steps = [
 
 const eventCategories = [
   {
-    emoji: "🌍",
+    image: worldcupImg,
+    imageAlt: "MetLife Stadium — FIFA World Cup 2026 venue",
     title: "FIFA World Cup 2026",
     desc: "11 trips to MetLife Stadium (NJ) and Lincoln Financial Field (Philly). Group stage through the Final.",
     path: "/world-cup",
-    accent: "from-blue-500/20 to-yellow-500/10 border-blue-500/30",
+    accent: "border-blue-500/30",
     badge: "bg-blue-500/10 text-blue-400",
     badgeText: "11 Trips Available",
   },
   {
-    emoji: "🦁",
+    image: psuImg,
+    imageAlt: "Beaver Stadium — Penn State Football",
     title: "Penn State Football",
     desc: "7 home games at Beaver Stadium, State College, PA. Tailgating time included. We arrive 3+ hours early.",
     path: "/penn-state",
-    accent: "from-blue-900/30 to-white/5 border-blue-900/40",
+    accent: "border-blue-900/40",
     badge: "bg-blue-900/30 text-blue-200",
     badgeText: "7 Home Games",
   },
   {
-    emoji: "🦅",
+    image: eaglesImg,
+    imageAlt: "Lincoln Financial Field — Philadelphia Eagles",
     title: "Philadelphia Eagles",
     desc: "Eagles 2026 home schedule drops in May. Get on the list now and be the first to know when trips go live.",
     path: "/eagles",
-    accent: "from-green-900/20 to-gray-500/10 border-green-800/30",
+    accent: "border-green-800/30",
     badge: "bg-green-900/20 text-green-400",
     badgeText: "Schedule Coming May 2026",
   },
@@ -78,16 +84,30 @@ export default function Home() {
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-10">Where Are We Going?</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {eventCategories.map((cat) => (
-            <div key={cat.title} className={`glass-card rounded-xl p-6 flex flex-col gap-4 bg-gradient-to-br border ${cat.accent} hover:border-primary/30 transition-colors`}>
-              <span className="text-5xl">{cat.emoji}</span>
-              <div>
-                <span className={`text-xs font-bold px-2 py-1 rounded ${cat.badge}`}>{cat.badgeText}</span>
-                <h3 className="text-xl font-bold mt-3 text-foreground">{cat.title}</h3>
-                <p className="text-sm text-muted-foreground mt-2">{cat.desc}</p>
+            <div key={cat.title} className={`glass-card rounded-xl overflow-hidden flex flex-col border ${cat.accent} hover:border-primary/30 transition-colors`}>
+              <div className="relative h-48 overflow-hidden">
+                <img
+                  src={cat.image}
+                  alt={cat.imageAlt}
+                  className="w-full h-full object-cover"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
+                <span className={`absolute bottom-3 left-3 text-xs font-bold px-2 py-1 rounded ${cat.badge}`}>
+                  {cat.badgeText}
+                </span>
               </div>
-              <Link to={cat.path} className="mt-auto">
-                <Button variant="hero" size="sm" className="w-full">View Trips <ArrowRight size={14} className="ml-1" /></Button>
-              </Link>
+              <div className="p-6 flex flex-col gap-4 flex-1">
+                <div>
+                  <h3 className="text-xl font-bold text-foreground">{cat.title}</h3>
+                  <p className="text-sm text-muted-foreground mt-2">{cat.desc}</p>
+                </div>
+                <Link to={cat.path} className="mt-auto">
+                  <Button variant="hero" size="sm" className="w-full">
+                    View Trips <ArrowRight size={14} className="ml-1" />
+                  </Button>
+                </Link>
+              </div>
             </div>
           ))}
         </div>
