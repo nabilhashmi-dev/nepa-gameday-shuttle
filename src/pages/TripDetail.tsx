@@ -1,14 +1,14 @@
 import { useParams, Link } from "react-router-dom";
 import { useState } from "react";
 import trips from "@/data/trips.json";
-import { Trip, Booking } from "@/types/trip";
+import { Trip } from "@/types/trip";
 import { formatDate, formatPrice, calculateTotal, calculateDeposit, getSeatsUrgency } from "@/lib/trips";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Calendar, MapPin, Clock, Users, ArrowLeft, AlertTriangle } from "lucide-react";
+import { Calendar, MapPin, Clock, Users, ArrowLeft } from "lucide-react";
 import { toast } from "sonner";
 
 const typedTrips = trips as Trip[];
@@ -23,6 +23,7 @@ export default function TripDetail() {
   const [seats, setSeats] = useState(1);
   const [pickup, setPickup] = useState("");
   const [agreed, setAgreed] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   if (!trip) {
     return (
@@ -37,7 +38,7 @@ export default function TripDetail() {
   const total = calculateTotal(trip.price_per_seat, seats);
   const deposit = calculateDeposit(trip.deposit_amount, seats);
 
-  const handleBooking = () => {
+  const handleBooking = async () => {
     if (!name || !phone || !email || !pickup) {
       toast.error("Please fill in all fields.");
       return;
@@ -47,24 +48,39 @@ export default function TripDetail() {
       return;
     }
 
-    const booking: Booking = {
-      tripId: trip.id,
-      name,
-      phone,
-      email,
-      seats,
-      pickupLocation: pickup,
-      totalPrice: total,
-      depositAmount: deposit,
-      createdAt: new Date().toISOString(),
-    };
+    setLoading(true);
+    try {
+      const res = await fetch(import.meta.env.VITE_N8N_RESERVATION_WEBHOOK, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          tripId: trip.id,
+          name,
+          phone,
+          email,
+          seats,
+          pickupLocation: pickup,
+          totalPrice: total,
+          depositAmount: deposit,
+        }),
+      });
 
-    const existing = JSON.parse(localStorage.getItem("nvh_bookings") || "[]");
-    existing.push(booking);
-    localStorage.setItem("nvh_bookings", JSON.stringify(existing));
-
-    toast.success("Reservation submitted! We'll contact you to confirm and collect payment.");
-    setName(""); setPhone(""); setEmail(""); setSeats(1); setPickup(""); setAgreed(false);
+      if (res.ok) {
+        toast.success("Reservation submitted! We'll contact you within 24 hours to confirm and collect your deposit.");
+        setName(""); setPhone(""); setEmail(""); setSeats(1); setPickup(""); setAgreed(false);
+      } else {
+        let errorMessage = "Unable to submit reservation. Please try again.";
+        try {
+          const data = await res.json();
+          if (data?.error) errorMessage = data.error;
+        } catch { /* non-JSON response */ }
+        toast.error(errorMessage);
+      }
+    } catch {
+      toast.error("Network error. Please check your connection and try again.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -208,13 +224,12 @@ export default function TripDetail() {
               </label>
             </div>
 
-            <Button variant="hero" size="lg" className="w-full" onClick={handleBooking}>
-              Reserve {seats} Seat{seats > 1 ? "s" : ""} — {formatPrice(deposit)} Deposit
+            <Button variant="hero" size="lg" className="w-full" onClick={handleBooking} disabled={loading}>
+              {loading ? "Submitting..." : `Reserve ${seats} Seat${seats > 1 ? "s" : ""} — ${formatPrice(deposit)} Deposit`}
             </Button>
 
             <p className="text-xs text-center text-muted-foreground">
-              <AlertTriangle size={12} className="inline mr-1" />
-              Stripe payment integration coming soon. Booking saved locally.
+              Your reservation is not confirmed until we follow up to collect your deposit.
             </p>
           </div>
         </div>
