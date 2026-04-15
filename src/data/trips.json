@@ -1,0 +1,668 @@
+[
+  {
+    "id": "wc-nj-jun13",
+    "title": "FIFA World Cup — Brazil vs. Morocco",
+    "category": "world-cup",
+    "date": "2026-06-13",
+    "pickup_locations": [
+      {
+        "name": "Viewmont Mall Park & Ride",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dunmore Park & Ride",
+        "address": "Dunmore, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dickson City Walmart",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      }
+    ],
+    "destination": "MetLife Stadium, East Rutherford, NJ",
+    "venue": "metlife",
+    "price_per_seat": 245,
+    "seats_total": 12,
+    "seats_remaining": 12,
+    "deposit_amount": 123,
+    "departure_time": "TBD",
+    "arrival_window": "TBD",
+    "return_time": "1 hour after match ends",
+    "description": "Round-trip shuttle from NEPA to MetLife Stadium for Brazil vs. Morocco — Group Stage.",
+    "image_url": "",
+    "status": "open"
+  },
+  {
+    "id": "wc-nj-jun16",
+    "title": "FIFA World Cup — France vs. Senegal",
+    "category": "world-cup",
+    "date": "2026-06-16",
+    "pickup_locations": [
+      {
+        "name": "Viewmont Mall Park & Ride",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dunmore Park & Ride",
+        "address": "Dunmore, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dickson City Walmart",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      }
+    ],
+    "destination": "MetLife Stadium, East Rutherford, NJ",
+    "venue": "metlife",
+    "price_per_seat": 235,
+    "seats_total": 12,
+    "seats_remaining": 12,
+    "deposit_amount": 118,
+    "departure_time": "TBD",
+    "arrival_window": "TBD",
+    "return_time": "1 hour after match ends",
+    "description": "Round-trip shuttle from NEPA to MetLife Stadium for France vs. Senegal — Group Stage.",
+    "image_url": "",
+    "status": "open"
+  },
+  {
+    "id": "wc-nj-jun25",
+    "title": "FIFA World Cup — Germany vs. Ecuador",
+    "category": "world-cup",
+    "date": "2026-06-25",
+    "pickup_locations": [
+      {
+        "name": "Viewmont Mall Park & Ride",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dunmore Park & Ride",
+        "address": "Dunmore, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dickson City Walmart",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      }
+    ],
+    "destination": "MetLife Stadium, East Rutherford, NJ",
+    "venue": "metlife",
+    "price_per_seat": 235,
+    "seats_total": 12,
+    "seats_remaining": 12,
+    "deposit_amount": 118,
+    "departure_time": "TBD",
+    "arrival_window": "TBD",
+    "return_time": "1 hour after match ends",
+    "description": "Round-trip shuttle from NEPA to MetLife Stadium for Germany vs. Ecuador — Group Stage.",
+    "image_url": "",
+    "status": "open"
+  },
+  {
+    "id": "wc-nj-jun27",
+    "title": "FIFA World Cup — England vs. Panama",
+    "category": "world-cup",
+    "date": "2026-06-27",
+    "pickup_locations": [
+      {
+        "name": "Viewmont Mall Park & Ride",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dunmore Park & Ride",
+        "address": "Dunmore, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dickson City Walmart",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      }
+    ],
+    "destination": "MetLife Stadium, East Rutherford, NJ",
+    "venue": "metlife",
+    "price_per_seat": 245,
+    "seats_total": 12,
+    "seats_remaining": 12,
+    "deposit_amount": 123,
+    "departure_time": "TBD",
+    "arrival_window": "TBD",
+    "return_time": "1 hour after match ends",
+    "description": "Round-trip shuttle from NEPA to MetLife Stadium for England vs. Panama — Group Stage.",
+    "image_url": "",
+    "status": "open"
+  },
+  {
+    "id": "wc-nj-jun30",
+    "title": "FIFA World Cup — Round of 32 (TBD)",
+    "category": "world-cup",
+    "date": "2026-06-30",
+    "pickup_locations": [
+      {
+        "name": "Viewmont Mall Park & Ride",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dunmore Park & Ride",
+        "address": "Dunmore, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dickson City Walmart",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      }
+    ],
+    "destination": "MetLife Stadium, East Rutherford, NJ",
+    "venue": "metlife",
+    "price_per_seat": 265,
+    "seats_total": 12,
+    "seats_remaining": 12,
+    "deposit_amount": 133,
+    "departure_time": "TBD",
+    "arrival_window": "TBD",
+    "return_time": "1 hour after match ends",
+    "description": "Round-trip shuttle from NEPA to MetLife Stadium for the Round of 32 Knockout stage. Match TBD.",
+    "image_url": "",
+    "status": "announced"
+  },
+  {
+    "id": "wc-nj-jul5",
+    "title": "FIFA World Cup — Round of 16 (TBD)",
+    "category": "world-cup",
+    "date": "2026-07-05",
+    "pickup_locations": [
+      {
+        "name": "Viewmont Mall Park & Ride",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dunmore Park & Ride",
+        "address": "Dunmore, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dickson City Walmart",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      }
+    ],
+    "destination": "MetLife Stadium, East Rutherford, NJ",
+    "venue": "metlife",
+    "price_per_seat": 275,
+    "seats_total": 12,
+    "seats_remaining": 12,
+    "deposit_amount": 138,
+    "departure_time": "TBD",
+    "arrival_window": "TBD",
+    "return_time": "1 hour after match ends",
+    "description": "Round-trip shuttle from NEPA to MetLife Stadium for the Round of 16. Teams TBD.",
+    "image_url": "",
+    "status": "announced"
+  },
+  {
+    "id": "wc-nj-final",
+    "title": "FIFA World Cup Final",
+    "category": "world-cup",
+    "date": "2026-07-19",
+    "pickup_locations": [
+      {
+        "name": "Viewmont Mall Park & Ride",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dunmore Park & Ride",
+        "address": "Dunmore, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dickson City Walmart",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      }
+    ],
+    "destination": "MetLife Stadium, East Rutherford, NJ",
+    "venue": "metlife",
+    "price_per_seat": 375,
+    "seats_total": 12,
+    "seats_remaining": 12,
+    "deposit_amount": 188,
+    "departure_time": "TBD",
+    "arrival_window": "TBD",
+    "return_time": "1 hour after match ends",
+    "description": "The biggest game in the world. Round-trip shuttle from NEPA to MetLife Stadium for the FIFA World Cup 2026 Final.",
+    "image_url": "",
+    "status": "announced",
+    "featured": true
+  },
+  {
+    "id": "wc-phi-jun14",
+    "title": "FIFA World Cup — Côte d'Ivoire vs. Ecuador",
+    "category": "world-cup",
+    "date": "2026-06-14",
+    "pickup_locations": [
+      {
+        "name": "Viewmont Mall Park & Ride",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dunmore Park & Ride",
+        "address": "Dunmore, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dickson City Walmart",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      }
+    ],
+    "destination": "Lincoln Financial Field, Philadelphia, PA",
+    "venue": "linc",
+    "price_per_seat": 210,
+    "seats_total": 12,
+    "seats_remaining": 12,
+    "deposit_amount": 105,
+    "departure_time": "TBD",
+    "arrival_window": "TBD",
+    "return_time": "1 hour after match ends",
+    "description": "Round-trip shuttle from NEPA to Lincoln Financial Field for Côte d'Ivoire vs. Ecuador — Group Stage.",
+    "image_url": "",
+    "status": "open"
+  },
+  {
+    "id": "wc-phi-jun19",
+    "title": "FIFA World Cup — Brazil vs. Haiti",
+    "category": "world-cup",
+    "date": "2026-06-19",
+    "pickup_locations": [
+      {
+        "name": "Viewmont Mall Park & Ride",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dunmore Park & Ride",
+        "address": "Dunmore, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dickson City Walmart",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      }
+    ],
+    "destination": "Lincoln Financial Field, Philadelphia, PA",
+    "venue": "linc",
+    "price_per_seat": 230,
+    "seats_total": 12,
+    "seats_remaining": 12,
+    "deposit_amount": 115,
+    "departure_time": "TBD",
+    "arrival_window": "TBD",
+    "return_time": "1 hour after match ends",
+    "description": "Round-trip shuttle from NEPA to Lincoln Financial Field for Brazil vs. Haiti — Group Stage.",
+    "image_url": "",
+    "status": "open"
+  },
+  {
+    "id": "wc-phi-jun22",
+    "title": "FIFA World Cup — France vs. Iraq",
+    "category": "world-cup",
+    "date": "2026-06-22",
+    "pickup_locations": [
+      {
+        "name": "Viewmont Mall Park & Ride",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dunmore Park & Ride",
+        "address": "Dunmore, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dickson City Walmart",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      }
+    ],
+    "destination": "Lincoln Financial Field, Philadelphia, PA",
+    "venue": "linc",
+    "price_per_seat": 225,
+    "seats_total": 12,
+    "seats_remaining": 12,
+    "deposit_amount": 113,
+    "departure_time": "TBD",
+    "arrival_window": "TBD",
+    "return_time": "1 hour after match ends",
+    "description": "Round-trip shuttle from NEPA to Lincoln Financial Field for France vs. Iraq — Group Stage.",
+    "image_url": "",
+    "status": "open"
+  },
+  {
+    "id": "wc-phi-jul4",
+    "title": "FIFA World Cup — Round of 16 (TBD) — July 4th",
+    "category": "world-cup",
+    "date": "2026-07-04",
+    "pickup_locations": [
+      {
+        "name": "Viewmont Mall Park & Ride",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dunmore Park & Ride",
+        "address": "Dunmore, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dickson City Walmart",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      }
+    ],
+    "destination": "Lincoln Financial Field, Philadelphia, PA",
+    "venue": "linc",
+    "price_per_seat": 260,
+    "seats_total": 12,
+    "seats_remaining": 12,
+    "deposit_amount": 130,
+    "departure_time": "TBD",
+    "arrival_window": "TBD",
+    "return_time": "1 hour after match ends",
+    "description": "Round-trip shuttle from NEPA to Lincoln Financial Field for the July 4th Round of 16. Teams TBD.",
+    "image_url": "",
+    "status": "announced"
+  },
+  {
+    "id": "psu-sep5",
+    "title": "Penn State Football — Home Opener",
+    "category": "penn-state",
+    "date": "2026-09-05",
+    "pickup_locations": [
+      {
+        "name": "Viewmont Mall Park & Ride",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dunmore Park & Ride",
+        "address": "Dunmore, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dickson City Walmart",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      }
+    ],
+    "destination": "Beaver Stadium, State College, PA",
+    "venue": "beaver-stadium",
+    "price_per_seat": 150,
+    "seats_total": 12,
+    "seats_remaining": 12,
+    "deposit_amount": 75,
+    "departure_time": "TBD",
+    "arrival_window": "9:30 AM - 10:00 AM",
+    "return_time": "1 hour after final whistle",
+    "description": "Kick off the Penn State season. Round-trip shuttle from NEPA to Beaver Stadium for the 2026 Home Opener. We arrive 3+ hours early for tailgating.",
+    "image_url": "",
+    "status": "open"
+  },
+  {
+    "id": "psu-sep19",
+    "title": "Penn State Football — September 19",
+    "category": "penn-state",
+    "date": "2026-09-19",
+    "pickup_locations": [
+      {
+        "name": "Viewmont Mall Park & Ride",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dunmore Park & Ride",
+        "address": "Dunmore, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dickson City Walmart",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      }
+    ],
+    "destination": "Beaver Stadium, State College, PA",
+    "venue": "beaver-stadium",
+    "price_per_seat": 150,
+    "seats_total": 12,
+    "seats_remaining": 12,
+    "deposit_amount": 75,
+    "departure_time": "TBD",
+    "arrival_window": "9:30 AM - 10:00 AM",
+    "return_time": "1 hour after final whistle",
+    "description": "Round-trip shuttle from NEPA to Beaver Stadium. Opponent TBD. We arrive 3+ hours early for tailgating.",
+    "image_url": "",
+    "status": "open"
+  },
+  {
+    "id": "psu-sep26",
+    "title": "Penn State Football — September 26",
+    "category": "penn-state",
+    "date": "2026-09-26",
+    "pickup_locations": [
+      {
+        "name": "Viewmont Mall Park & Ride",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dunmore Park & Ride",
+        "address": "Dunmore, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dickson City Walmart",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      }
+    ],
+    "destination": "Beaver Stadium, State College, PA",
+    "venue": "beaver-stadium",
+    "price_per_seat": 150,
+    "seats_total": 12,
+    "seats_remaining": 12,
+    "deposit_amount": 75,
+    "departure_time": "TBD",
+    "arrival_window": "9:30 AM - 10:00 AM",
+    "return_time": "1 hour after final whistle",
+    "description": "Round-trip shuttle from NEPA to Beaver Stadium. Opponent TBD. We arrive 3+ hours early for tailgating.",
+    "image_url": "",
+    "status": "open"
+  },
+  {
+    "id": "psu-oct10",
+    "title": "Penn State Football — October 10",
+    "category": "penn-state",
+    "date": "2026-10-10",
+    "pickup_locations": [
+      {
+        "name": "Viewmont Mall Park & Ride",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dunmore Park & Ride",
+        "address": "Dunmore, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dickson City Walmart",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      }
+    ],
+    "destination": "Beaver Stadium, State College, PA",
+    "venue": "beaver-stadium",
+    "price_per_seat": 150,
+    "seats_total": 12,
+    "seats_remaining": 12,
+    "deposit_amount": 75,
+    "departure_time": "TBD",
+    "arrival_window": "9:30 AM - 10:00 AM",
+    "return_time": "1 hour after final whistle",
+    "description": "Round-trip shuttle from NEPA to Beaver Stadium. Opponent TBD. We arrive 3+ hours early for tailgating.",
+    "image_url": "",
+    "status": "open"
+  },
+  {
+    "id": "psu-oct31",
+    "title": "Penn State Football — Halloween Weekend",
+    "category": "penn-state",
+    "date": "2026-10-31",
+    "pickup_locations": [
+      {
+        "name": "Viewmont Mall Park & Ride",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dunmore Park & Ride",
+        "address": "Dunmore, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dickson City Walmart",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      }
+    ],
+    "destination": "Beaver Stadium, State College, PA",
+    "venue": "beaver-stadium",
+    "price_per_seat": 160,
+    "seats_total": 12,
+    "seats_remaining": 12,
+    "deposit_amount": 80,
+    "departure_time": "TBD",
+    "arrival_window": "9:30 AM - 10:00 AM",
+    "return_time": "1 hour after final whistle",
+    "description": "Halloween weekend in Happy Valley. Round-trip shuttle from NEPA to Beaver Stadium. Opponent TBD.",
+    "image_url": "",
+    "status": "open"
+  },
+  {
+    "id": "psu-nov14",
+    "title": "Penn State Football — November 14",
+    "category": "penn-state",
+    "date": "2026-11-14",
+    "pickup_locations": [
+      {
+        "name": "Viewmont Mall Park & Ride",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dunmore Park & Ride",
+        "address": "Dunmore, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dickson City Walmart",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      }
+    ],
+    "destination": "Beaver Stadium, State College, PA",
+    "venue": "beaver-stadium",
+    "price_per_seat": 150,
+    "seats_total": 12,
+    "seats_remaining": 12,
+    "deposit_amount": 75,
+    "departure_time": "TBD",
+    "arrival_window": "9:30 AM - 10:00 AM",
+    "return_time": "1 hour after final whistle",
+    "description": "Round-trip shuttle from NEPA to Beaver Stadium. Opponent TBD. We arrive 3+ hours early for tailgating.",
+    "image_url": "",
+    "status": "open"
+  },
+  {
+    "id": "psu-nov21",
+    "title": "Penn State Football — Regular Season Finale",
+    "category": "penn-state",
+    "date": "2026-11-21",
+    "pickup_locations": [
+      {
+        "name": "Viewmont Mall Park & Ride",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dunmore Park & Ride",
+        "address": "Dunmore, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dickson City Walmart",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      }
+    ],
+    "destination": "Beaver Stadium, State College, PA",
+    "venue": "beaver-stadium",
+    "price_per_seat": 160,
+    "seats_total": 12,
+    "seats_remaining": 12,
+    "deposit_amount": 80,
+    "departure_time": "TBD",
+    "arrival_window": "9:30 AM - 10:00 AM",
+    "return_time": "1 hour after final whistle",
+    "description": "Send off the regular season in style. Round-trip shuttle from NEPA to Beaver Stadium. Opponent TBD.",
+    "image_url": "",
+    "status": "open"
+  },
+  {
+    "id": "eagles-tbd",
+    "title": "Philadelphia Eagles — Schedule TBD",
+    "category": "eagles",
+    "date": "2026-09-01",
+    "pickup_locations": [
+      {
+        "name": "Viewmont Mall Park & Ride",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dunmore Park & Ride",
+        "address": "Dunmore, PA",
+        "time": "TBD"
+      },
+      {
+        "name": "Dickson City Walmart",
+        "address": "Dickson City, PA",
+        "time": "TBD"
+      }
+    ],
+    "destination": "Lincoln Financial Field, Philadelphia, PA",
+    "venue": "linc-eagles",
+    "price_per_seat": 195,
+    "seats_total": 12,
+    "seats_remaining": 12,
+    "deposit_amount": 98,
+    "departure_time": "TBD",
+    "arrival_window": "TBD",
+    "return_time": "1 hour after final whistle",
+    "description": "Eagles 2026 home schedule drops in May. Sign up to be notified the moment trips go live.",
+    "image_url": "",
+    "status": "coming-soon"
+  }
+]
