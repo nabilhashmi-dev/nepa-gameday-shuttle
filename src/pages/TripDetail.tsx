@@ -249,7 +249,7 @@ export default function TripDetail() {
             <div className="flex items-start gap-2">
               <Checkbox id="terms" checked={agreed} onCheckedChange={(v) => setAgreed(v === true)} className="mt-1" />
               <label htmlFor="terms" className="text-xs text-muted-foreground leading-relaxed">
-                I agree to the terms & conditions. Deposits are non-refundable. No glass containers. Driver has final say on alcohol policy. Remaining balance due 7 days before trip.
+                I agree to the terms & conditions. Deposits are non-refundable. No glass containers. Driver has final say on alcohol policy. Remaining balance due 7 days before trip. Passengers are responsible for cleaning fees resulting from excessive soiling (minimum $150).
               </label>
             </div>
 
