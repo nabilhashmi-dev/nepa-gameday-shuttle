@@ -32,6 +32,9 @@ export interface Booking {
   email: string;
   seats: number;
   pickupLocation: string;
+  basePrice: number;
+  driverTip: number;
+  extraTip: number;
   totalPrice: number;
   depositAmount: number;
   createdAt: string;

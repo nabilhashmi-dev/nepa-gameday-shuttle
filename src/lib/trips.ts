@@ -17,7 +17,7 @@ export function formatDate(dateStr: string) {
 }
 
 export function formatPrice(price: number) {
-  return `$${price}`;
+  return `$${price.toFixed(2).replace(/\.00$/, "")}`;
 }
 
 export function calculateTotal(pricePerSeat: number, seats: number) {
@@ -26,4 +26,14 @@ export function calculateTotal(pricePerSeat: number, seats: number) {
 
 export function calculateDeposit(depositPerSeat: number, seats: number) {
   return depositPerSeat * seats;
+}
+
+export function calculateDriverTip(baseTotal: number) {
+  return Math.round(baseTotal * 0.20 * 100) / 100;
+}
+
+export function calculateGrandTotal(pricePerSeat: number, seats: number, extraTip: number) {
+  const base = calculateTotal(pricePerSeat, seats);
+  const mandatoryTip = calculateDriverTip(base);
+  return base + mandatoryTip + extraTip;
 }

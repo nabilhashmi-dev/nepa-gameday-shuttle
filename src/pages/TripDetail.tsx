@@ -2,7 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import { useState } from "react";
 import trips from "@/data/trips.json";
 import { Trip } from "@/types/trip";
-import { formatDate, formatPrice, calculateTotal, calculateDeposit, getSeatsUrgency } from "@/lib/trips";
+import { formatDate, formatPrice, calculateTotal, calculateDeposit, calculateDriverTip, calculateGrandTotal, getSeatsUrgency } from "@/lib/trips";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -22,6 +22,7 @@ export default function TripDetail() {
   const [email, setEmail] = useState("");
   const [seats, setSeats] = useState(1);
   const [pickup, setPickup] = useState("");
+  const [extraTip, setExtraTip] = useState(0);
   const [agreed, setAgreed] = useState(false);
   const [loading, setLoading] = useState(false);
 
@@ -35,7 +36,9 @@ export default function TripDetail() {
   }
 
   const urgency = getSeatsUrgency(trip.seats_remaining, trip.seats_total);
-  const total = calculateTotal(trip.price_per_seat, seats);
+  const baseTotal = calculateTotal(trip.price_per_seat, seats);
+  const driverTip = calculateDriverTip(baseTotal);
+  const grandTotal = calculateGrandTotal(trip.price_per_seat, seats, extraTip);
   const deposit = calculateDeposit(trip.deposit_amount, seats);
 
   const handleBooking = async () => {
@@ -60,14 +63,17 @@ export default function TripDetail() {
           email,
           seats,
           pickupLocation: pickup,
-          totalPrice: total,
+          basePrice: baseTotal,
+          driverTip,
+          extraTip,
+          totalPrice: grandTotal,
           depositAmount: deposit,
         }),
       });
 
       if (res.ok) {
         toast.success("Reservation submitted! We'll contact you within 24 hours to confirm and collect your deposit.");
-        setName(""); setPhone(""); setEmail(""); setSeats(1); setPickup(""); setAgreed(false);
+        setName(""); setPhone(""); setEmail(""); setSeats(1); setPickup(""); setExtraTip(0); setAgreed(false);
       } else {
         let errorMessage = "Unable to submit reservation. Please try again.";
         try {
@@ -204,8 +210,31 @@ export default function TripDetail() {
             {/* Payment Summary */}
             <div className="bg-secondary/50 rounded-lg p-4 space-y-2 text-sm">
               <div className="flex justify-between">
-                <span className="text-muted-foreground">Total ({seats} seat{seats > 1 ? "s" : ""})</span>
-                <span className="font-bold">{formatPrice(total)}</span>
+                <span className="text-muted-foreground">Subtotal ({seats} seat{seats > 1 ? "s" : ""})</span>
+                <span>{formatPrice(baseTotal)}</span>
+              </div>
+              <div className="flex justify-between text-amber-500 font-medium">
+                <span>Driver Tip (20% — mandatory)</span>
+                <span>{formatPrice(driverTip)}</span>
+              </div>
+              <div className="pt-1">
+                <Label className="text-xs text-muted-foreground">Extra Tip for Driver (optional)</Label>
+                <div className="flex items-center gap-2 mt-1">
+                  <span className="text-muted-foreground">$</span>
+                  <input
+                    type="number"
+                    min="0"
+                    step="1"
+                    value={extraTip === 0 ? "" : extraTip}
+                    onChange={(e) => setExtraTip(Math.max(0, Number(e.target.value) || 0))}
+                    placeholder="0"
+                    className="w-full bg-background border border-border rounded px-2 py-1 text-sm focus:outline-none focus:ring-1 focus:ring-primary"
+                  />
+                </div>
+              </div>
+              <div className="flex justify-between font-bold border-t border-border pt-2">
+                <span>Grand Total</span>
+                <span>{formatPrice(grandTotal)}</span>
               </div>
               <div className="flex justify-between text-primary font-bold">
                 <span>Deposit Due Now</span>
@@ -213,7 +242,7 @@ export default function TripDetail() {
               </div>
               <div className="flex justify-between text-muted-foreground">
                 <span>Balance Due 7 Days Before</span>
-                <span>{formatPrice(total - deposit)}</span>
+                <span>{formatPrice(grandTotal - deposit)}</span>
               </div>
             </div>
 
@@ -225,7 +254,7 @@ export default function TripDetail() {
             </div>
 
             <Button variant="hero" size="lg" className="w-full" onClick={handleBooking} disabled={loading}>
-              {loading ? "Submitting..." : `Reserve ${seats} Seat${seats > 1 ? "s" : ""} — ${formatPrice(deposit)} Deposit`}
+              {loading ? "Submitting..." : `Reserve ${seats} Seat${seats > 1 ? "s" : ""} — ${formatPrice(deposit)} Deposit (${formatPrice(grandTotal)} total)`}
             </Button>
 
             <p className="text-xs text-center text-muted-foreground">
