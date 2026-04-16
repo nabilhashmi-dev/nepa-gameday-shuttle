@@ -50,7 +50,7 @@ export default function TripDetail() {
 
     setLoading(true);
     try {
-      const res = await fetch(import.meta.env.VITE_N8N_RESERVATION_WEBHOOK, {
+      const res = await fetch('/api/reserve', {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

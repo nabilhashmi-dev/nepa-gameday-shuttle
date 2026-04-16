@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/reserve",
+      "destination": "https://n8n.propclarity.cloud/webhook/nepa-reservation"
+    }
+  ]
+}

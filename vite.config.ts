@@ -10,6 +10,13 @@ export default defineConfig(() => ({
     hmr: {
       overlay: false,
     },
+    proxy: {
+      '/api/reserve': {
+        target: 'https://n8n.propclarity.cloud',
+        changeOrigin: true,
+        rewrite: () => '/webhook/nepa-reservation',
+      },
+    },
   },
   plugins: [react()],
   resolve: {
