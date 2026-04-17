@@ -105,8 +105,8 @@ export default function Eagles() {
         <div className="container grid grid-cols-1 sm:grid-cols-3 gap-6 text-center max-w-3xl mx-auto">
           <div className="glass-card rounded-lg p-5">
             <span className="text-3xl">🚐</span>
-            <h3 className="font-bold mt-3 text-foreground">3 Pickup Spots</h3>
-            <p className="text-sm text-muted-foreground mt-1">Viewmont Mall, Dunmore Park & Ride, or Dickson City Walmart</p>
+            <h3 className="font-bold mt-3 text-foreground">4 Pickup Spots</h3>
+            <p className="text-sm text-muted-foreground mt-1">Extra Space Storage Dickson City · PennDOT P&R Pittston · Sam's Club Wilkes-Barre · Allentown Service Plaza</p>
           </div>
           <div className="glass-card rounded-lg p-5">
             <span className="text-3xl">🅿️</span>

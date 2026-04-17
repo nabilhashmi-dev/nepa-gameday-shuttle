@@ -151,13 +151,19 @@ export default function Home() {
       <section className="container py-16">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-4">Convenient Pickup Locations</h2>
         <p className="text-center text-muted-foreground mb-8 max-w-xl mx-auto">
-          All trips depart from park & ride locations in the Scranton/Dickson City area. Select your preferred pickup when booking.
+          All trips depart from free park & ride locations in the Scranton/Wilkes-Barre area. Stops vary by destination — exact locations shown on each trip.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-2xl mx-auto">
-          {["Viewmont Mall Park & Ride", "Dunmore Park & Ride", "Dickson City Walmart"].map((loc) => (
-            <div key={loc} className="glass-card rounded-lg p-4 text-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
+          {[
+            { name: "Extra Space Storage", sub: "Dickson City, PA" },
+            { name: "PennDOT Park & Ride", sub: "Pittston, PA (PA-315)" },
+            { name: "Sam's Club", sub: "Wilkes-Barre, PA" },
+            { name: "Allentown Service Plaza", sub: "I-476 (Philly/NJ routes)" },
+          ].map((loc) => (
+            <div key={loc.name} className="glass-card rounded-lg p-4 text-center">
               <MapPin size={20} className="text-primary mx-auto mb-2" />
-              <span className="text-sm font-medium text-foreground">{loc}</span>
+              <p className="text-sm font-medium text-foreground">{loc.name}</p>
+              <p className="text-xs text-muted-foreground mt-0.5">{loc.sub}</p>
             </div>
           ))}
         </div>
