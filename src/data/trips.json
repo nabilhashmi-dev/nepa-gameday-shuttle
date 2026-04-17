@@ -8,17 +8,17 @@
       {
         "name": "Extra Space Storage — Dickson City",
         "address": "Dickson City, PA 18519",
-        "time": "TBD"
+        "time": "1:30 PM"
       },
       {
         "name": "PennDOT Park & Ride — Daleville",
         "address": "610 Scranton-Pocono Hwy, Covington Township, PA 18444",
-        "time": "TBD"
+        "time": "1:45 PM"
       },
       {
         "name": "Park & Ride — Delaware Water Gap",
         "address": "Stroudsburg, PA 18360",
-        "time": "TBD"
+        "time": "2:15 PM"
       }
     ],
     "destination": "MetLife Stadium, East Rutherford, NJ",
@@ -27,8 +27,8 @@
     "seats_total": 10,
     "seats_remaining": 10,
     "deposit_amount": 123,
-    "departure_time": "TBD",
-    "arrival_window": "TBD",
+    "departure_time": "1:30 PM from Dickson City",
+    "arrival_window": "~4:00 PM (2 hrs before kickoff)",
     "return_time": "1 hour after match ends",
     "description": "Round-trip shuttle from NEPA to MetLife Stadium for Brazil vs. Morocco — Group Stage.",
     "image_url": "",
@@ -43,17 +43,17 @@
       {
         "name": "Extra Space Storage — Dickson City",
         "address": "Dickson City, PA 18519",
-        "time": "TBD"
+        "time": "10:30 AM"
       },
       {
         "name": "PennDOT Park & Ride — Daleville",
         "address": "610 Scranton-Pocono Hwy, Covington Township, PA 18444",
-        "time": "TBD"
+        "time": "10:45 AM"
       },
       {
         "name": "Park & Ride — Delaware Water Gap",
         "address": "Stroudsburg, PA 18360",
-        "time": "TBD"
+        "time": "11:15 AM"
       }
     ],
     "destination": "MetLife Stadium, East Rutherford, NJ",
@@ -62,8 +62,8 @@
     "seats_total": 10,
     "seats_remaining": 10,
     "deposit_amount": 118,
-    "departure_time": "TBD",
-    "arrival_window": "TBD",
+    "departure_time": "10:30 AM from Dickson City",
+    "arrival_window": "~1:00 PM (2 hrs before kickoff)",
     "return_time": "1 hour after match ends",
     "description": "Round-trip shuttle from NEPA to MetLife Stadium for France vs. Senegal — Group Stage.",
     "image_url": "",
@@ -78,17 +78,17 @@
       {
         "name": "Extra Space Storage — Dickson City",
         "address": "Dickson City, PA 18519",
-        "time": "TBD"
+        "time": "11:30 AM"
       },
       {
         "name": "PennDOT Park & Ride — Daleville",
         "address": "610 Scranton-Pocono Hwy, Covington Township, PA 18444",
-        "time": "TBD"
+        "time": "11:45 AM"
       },
       {
         "name": "Park & Ride — Delaware Water Gap",
         "address": "Stroudsburg, PA 18360",
-        "time": "TBD"
+        "time": "12:15 PM"
       }
     ],
     "destination": "MetLife Stadium, East Rutherford, NJ",
@@ -97,8 +97,8 @@
     "seats_total": 10,
     "seats_remaining": 10,
     "deposit_amount": 118,
-    "departure_time": "TBD",
-    "arrival_window": "TBD",
+    "departure_time": "11:30 AM from Dickson City",
+    "arrival_window": "~2:00 PM (2 hrs before kickoff)",
     "return_time": "1 hour after match ends",
     "description": "Round-trip shuttle from NEPA to MetLife Stadium for Germany vs. Ecuador — Group Stage.",
     "image_url": "",
@@ -113,17 +113,17 @@
       {
         "name": "Extra Space Storage — Dickson City",
         "address": "Dickson City, PA 18519",
-        "time": "TBD"
+        "time": "12:30 PM"
       },
       {
         "name": "PennDOT Park & Ride — Daleville",
         "address": "610 Scranton-Pocono Hwy, Covington Township, PA 18444",
-        "time": "TBD"
+        "time": "12:45 PM"
       },
       {
         "name": "Park & Ride — Delaware Water Gap",
         "address": "Stroudsburg, PA 18360",
-        "time": "TBD"
+        "time": "1:15 PM"
       }
     ],
     "destination": "MetLife Stadium, East Rutherford, NJ",
@@ -132,8 +132,8 @@
     "seats_total": 10,
     "seats_remaining": 10,
     "deposit_amount": 123,
-    "departure_time": "TBD",
-    "arrival_window": "TBD",
+    "departure_time": "12:30 PM from Dickson City",
+    "arrival_window": "~3:00 PM (2 hrs before kickoff)",
     "return_time": "1 hour after match ends",
     "description": "Round-trip shuttle from NEPA to MetLife Stadium for England vs. Panama — Group Stage.",
     "image_url": "",
@@ -148,17 +148,17 @@
       {
         "name": "Extra Space Storage — Dickson City",
         "address": "Dickson City, PA 18519",
-        "time": "TBD"
+        "time": "12:30 PM"
       },
       {
         "name": "PennDOT Park & Ride — Daleville",
         "address": "610 Scranton-Pocono Hwy, Covington Township, PA 18444",
-        "time": "TBD"
+        "time": "12:45 PM"
       },
       {
         "name": "Park & Ride — Delaware Water Gap",
         "address": "Stroudsburg, PA 18360",
-        "time": "TBD"
+        "time": "1:15 PM"
       }
     ],
     "destination": "MetLife Stadium, East Rutherford, NJ",
@@ -167,8 +167,8 @@
     "seats_total": 10,
     "seats_remaining": 10,
     "deposit_amount": 133,
-    "departure_time": "TBD",
-    "arrival_window": "TBD",
+    "departure_time": "12:30 PM from Dickson City",
+    "arrival_window": "~3:00 PM (2 hrs before kickoff)",
     "return_time": "1 hour after match ends",
     "description": "Round-trip shuttle from NEPA to MetLife Stadium for the Round of 32 Knockout stage. Match TBD.",
     "image_url": "",
@@ -183,17 +183,17 @@
       {
         "name": "Extra Space Storage — Dickson City",
         "address": "Dickson City, PA 18519",
-        "time": "TBD"
+        "time": "11:30 AM"
       },
       {
         "name": "PennDOT Park & Ride — Daleville",
         "address": "610 Scranton-Pocono Hwy, Covington Township, PA 18444",
-        "time": "TBD"
+        "time": "11:45 AM"
       },
       {
         "name": "Park & Ride — Delaware Water Gap",
         "address": "Stroudsburg, PA 18360",
-        "time": "TBD"
+        "time": "12:15 PM"
       }
     ],
     "destination": "MetLife Stadium, East Rutherford, NJ",
@@ -202,8 +202,8 @@
     "seats_total": 10,
     "seats_remaining": 10,
     "deposit_amount": 138,
-    "departure_time": "TBD",
-    "arrival_window": "TBD",
+    "departure_time": "11:30 AM from Dickson City",
+    "arrival_window": "~2:00 PM (2 hrs before kickoff)",
     "return_time": "1 hour after match ends",
     "description": "Round-trip shuttle from NEPA to MetLife Stadium for the Round of 16. Teams TBD.",
     "image_url": "",
@@ -218,17 +218,17 @@
       {
         "name": "Extra Space Storage — Dickson City",
         "address": "Dickson City, PA 18519",
-        "time": "TBD"
+        "time": "10:30 AM"
       },
       {
         "name": "PennDOT Park & Ride — Daleville",
         "address": "610 Scranton-Pocono Hwy, Covington Township, PA 18444",
-        "time": "TBD"
+        "time": "10:45 AM"
       },
       {
         "name": "Park & Ride — Delaware Water Gap",
         "address": "Stroudsburg, PA 18360",
-        "time": "TBD"
+        "time": "11:15 AM"
       }
     ],
     "destination": "MetLife Stadium, East Rutherford, NJ",
@@ -237,8 +237,8 @@
     "seats_total": 10,
     "seats_remaining": 10,
     "deposit_amount": 188,
-    "departure_time": "TBD",
-    "arrival_window": "TBD",
+    "departure_time": "10:30 AM from Dickson City",
+    "arrival_window": "~1:00 PM (2 hrs before kickoff)",
     "return_time": "1 hour after match ends",
     "description": "The biggest game in the world. Round-trip shuttle from NEPA to MetLife Stadium for the FIFA World Cup 2026 Final.",
     "image_url": "",
