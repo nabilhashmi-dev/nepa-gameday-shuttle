@@ -254,32 +254,32 @@
       {
         "name": "Extra Space Storage — Dickson City",
         "address": "Dickson City, PA 18519",
-        "time": "TBD"
+        "time": "2:00 PM"
       },
       {
         "name": "PennDOT Park & Ride — Pittston",
         "address": "213 PA-315, Pittston, PA 18640",
-        "time": "TBD"
+        "time": "2:15 PM"
       },
       {
         "name": "Sam's Club — Wilkes-Barre",
         "address": "Wilkes-Barre, PA",
-        "time": "TBD"
+        "time": "2:30 PM"
       },
       {
         "name": "Allentown Service Plaza",
         "address": "I-476 Northeast Extension, PA Turnpike",
-        "time": "TBD"
+        "time": "3:30 PM"
       }
     ],
-    "destination": "Lincoln Financial Field, Philadelphia, PA",
+    "destination": "Xfinity Live!, Philadelphia, PA (Lincoln Financial Field)",
     "venue": "linc",
     "price_per_seat": 210,
     "seats_total": 10,
     "seats_remaining": 10,
     "deposit_amount": 105,
-    "departure_time": "TBD",
-    "arrival_window": "TBD",
+    "departure_time": "2:00 PM from Dickson City",
+    "arrival_window": "~5:00 PM (2 hrs before kickoff)",
     "return_time": "1 hour after match ends",
     "description": "Round-trip shuttle from NEPA to Lincoln Financial Field for Côte d'Ivoire vs. Ecuador — Group Stage.",
     "image_url": "",
@@ -294,32 +294,32 @@
       {
         "name": "Extra Space Storage — Dickson City",
         "address": "Dickson City, PA 18519",
-        "time": "TBD"
+        "time": "4:00 PM"
       },
       {
         "name": "PennDOT Park & Ride — Pittston",
         "address": "213 PA-315, Pittston, PA 18640",
-        "time": "TBD"
+        "time": "4:15 PM"
       },
       {
         "name": "Sam's Club — Wilkes-Barre",
         "address": "Wilkes-Barre, PA",
-        "time": "TBD"
+        "time": "4:30 PM"
       },
       {
         "name": "Allentown Service Plaza",
         "address": "I-476 Northeast Extension, PA Turnpike",
-        "time": "TBD"
+        "time": "5:30 PM"
       }
     ],
-    "destination": "Lincoln Financial Field, Philadelphia, PA",
+    "destination": "Xfinity Live!, Philadelphia, PA (Lincoln Financial Field)",
     "venue": "linc",
     "price_per_seat": 230,
     "seats_total": 10,
     "seats_remaining": 10,
     "deposit_amount": 115,
-    "departure_time": "TBD",
-    "arrival_window": "TBD",
+    "departure_time": "4:00 PM from Dickson City",
+    "arrival_window": "~7:00 PM (2 hrs before kickoff)",
     "return_time": "1 hour after match ends",
     "description": "Round-trip shuttle from NEPA to Lincoln Financial Field for Brazil vs. Haiti — Group Stage.",
     "image_url": "",
@@ -334,32 +334,32 @@
       {
         "name": "Extra Space Storage — Dickson City",
         "address": "Dickson City, PA 18519",
-        "time": "TBD"
+        "time": "12:00 PM"
       },
       {
         "name": "PennDOT Park & Ride — Pittston",
         "address": "213 PA-315, Pittston, PA 18640",
-        "time": "TBD"
+        "time": "12:15 PM"
       },
       {
         "name": "Sam's Club — Wilkes-Barre",
         "address": "Wilkes-Barre, PA",
-        "time": "TBD"
+        "time": "12:30 PM"
       },
       {
         "name": "Allentown Service Plaza",
         "address": "I-476 Northeast Extension, PA Turnpike",
-        "time": "TBD"
+        "time": "1:30 PM"
       }
     ],
-    "destination": "Lincoln Financial Field, Philadelphia, PA",
+    "destination": "Xfinity Live!, Philadelphia, PA (Lincoln Financial Field)",
     "venue": "linc",
     "price_per_seat": 225,
     "seats_total": 10,
     "seats_remaining": 10,
     "deposit_amount": 113,
-    "departure_time": "TBD",
-    "arrival_window": "TBD",
+    "departure_time": "12:00 PM from Dickson City",
+    "arrival_window": "~3:00 PM (2 hrs before kickoff)",
     "return_time": "1 hour after match ends",
     "description": "Round-trip shuttle from NEPA to Lincoln Financial Field for France vs. Iraq — Group Stage.",
     "image_url": "",
@@ -374,32 +374,32 @@
       {
         "name": "Extra Space Storage — Dickson City",
         "address": "Dickson City, PA 18519",
-        "time": "TBD"
+        "time": "12:00 PM"
       },
       {
         "name": "PennDOT Park & Ride — Pittston",
         "address": "213 PA-315, Pittston, PA 18640",
-        "time": "TBD"
+        "time": "12:15 PM"
       },
       {
         "name": "Sam's Club — Wilkes-Barre",
         "address": "Wilkes-Barre, PA",
-        "time": "TBD"
+        "time": "12:30 PM"
       },
       {
         "name": "Allentown Service Plaza",
         "address": "I-476 Northeast Extension, PA Turnpike",
-        "time": "TBD"
+        "time": "1:30 PM"
       }
     ],
-    "destination": "Lincoln Financial Field, Philadelphia, PA",
+    "destination": "Xfinity Live!, Philadelphia, PA (Lincoln Financial Field)",
     "venue": "linc",
     "price_per_seat": 260,
     "seats_total": 10,
     "seats_remaining": 10,
     "deposit_amount": 130,
-    "departure_time": "TBD",
-    "arrival_window": "TBD",
+    "departure_time": "12:00 PM from Dickson City",
+    "arrival_window": "~3:00 PM (2 hrs before kickoff)",
     "return_time": "1 hour after match ends",
     "description": "Round-trip shuttle from NEPA to Lincoln Financial Field for the July 4th Round of 16. Teams TBD.",
     "image_url": "",
